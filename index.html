@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Muhammad Ammar Nuqman Bin Anuar</title>
+  <title>Ammar Nuqman</title>
   <meta name="description" content="Muhammad Ammar Nuqman's personal homepage and resume.">
   <style>
     body {
@@ -111,6 +111,10 @@
       font-family: "Courier New", monospace;
     }
 
+    .visitor-counter {
+      vertical-align: middle;
+    }
+
     @media (max-width: 800px) {
       body { margin: 8px; }
       table { width: 100%; }
@@ -132,8 +136,7 @@
         <a href="#home">HOME</a> |
         <a href="#work">MY WORK</a> |
         <a href="#about">ABOUT ME</a> |
-        <a href="#links">LINKS</a> |
-        <a href="#guestbook">GUESTBOOK</a>
+        <a href="#links">LINKS</a>
       </td>
     </tr>
     <tr>
@@ -154,6 +157,7 @@
           </div>
         </div>
 
+        <a name="work"></a>
         <div class="box" id="work">
           <div class="title">WORK_EXPERIENCE.HTML</div>
           <div class="box-content">
@@ -200,6 +204,7 @@
             </ul>
           </div>
         </div>
+
       </td>
 
       <td width="32%">
@@ -210,7 +215,6 @@
               <li><a href="mailto:ammarnuqmananuar@gmail.com">Email me</a></li>
               <li><a href="https://github.com" target="_blank">GitHub</a></li>
               <li><a href="https://www.linkedin.com/in/ammar-nuqman-919578189/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-              <li><a href="#guestbook">Sign my guestbook</a></li>
             </ul>
           </div>
         </div>
@@ -239,25 +243,6 @@
           </div>
         </div>
 
-        <div class="box" id="guestbook">
-          <div class="title">GUESTBOOK.EXE</div>
-          <div class="box-content">
-            <p>Leave me a message!</p>
-            <form action="mailto:ammarnuqmananuar@gmail.com" method="post" enctype="text/plain">
-              <p>
-                Name:<br>
-                <input type="text" name="name" size="22">
-              </p>
-              <p>
-                Message:<br>
-                <textarea name="message" rows="5" cols="23"></textarea>
-              </p>
-              <input type="submit" value="Sign Guestbook">
-              <input type="reset" value="Clear">
-            </form>
-          </div>
-        </div>
-
         <div class="box">
           <div class="title">WEBRING</div>
           <div class="box-content" align="center">
@@ -275,7 +260,13 @@
         <p class="small">
           © 2026 Ammar Nuqman
         </p>
-        <p class="counter">You are visitor number: 0001338</p>
+        <p class="counter">
+          You are visitor number:
+          <img
+            class="visitor-counter"
+            src="https://www.freewebtools.com/api/badge/counter/ammxr13.github.io.svg?label=&style=flat&color=00ff00&labelColor=000033"
+            alt="live visitor count">
+        </p>
         <p class="small">Best viewed in Internet Explorer 6.0 at 1024x768</p>
       </td>
     </tr>
