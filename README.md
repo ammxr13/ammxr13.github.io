@@ -1,6 +1,6 @@
 # My Homepage
 
-Personal portfolio website for Muhammad Ammar Nuqman Bin Anuar.
+Personal portfolio website.
 
 The site uses a deliberately simple early-2000s homepage style with:
 
