@@ -7,7 +7,8 @@ The site uses a deliberately simple early-2000s homepage style with:
 - A table-based layout
 - Classic bright link colors and bordered content boxes
 - Resume-based education, experience, achievements, skills, and languages
-- Email, GitHub, LinkedIn, and guestbook links
+- Email, GitHub, and LinkedIn links
+- A live visitor counter
 - A lightweight static HTML implementation
 
 ## Local preview
